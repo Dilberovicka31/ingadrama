@@ -33,12 +33,15 @@ export default function Hero() {
             alignItems: 'center',
             justifyContent: 'center',
             backgroundColor: 'rgba(0,0,0,0.3)',
+            textAlign: 'center',
           }}
         >
           <Typography
             variant="h2"
             sx={{
               fontFamily: "'Playfair Display', serif",
+              fontWeight: 700,
+              letterSpacing: '-1px',
               color: 'white',
               textShadow: '0 2px 4px rgba(0,0,0,0.6)',
             }}

@@ -1,5 +1,6 @@
 import Header from './components/Header';
 import Hero from './components/Hero';
+import About from'./components/About';
 
 function App() {
   return (
@@ -10,8 +11,8 @@ function App() {
         <Hero />
       </section>
 
-      <section id="about" data-theme="light" style={{ height: '100vh', backgroundColor: '#fff' }}>
-        About Section
+      <section id="about" data-theme="light" style={{  backgroundColor: '#fff' }}>
+        <About/>
       </section>
 
       <section id="portfolio" data-theme="light" style={{ height: '100vh', backgroundColor: '#f7f7f7' }}>
