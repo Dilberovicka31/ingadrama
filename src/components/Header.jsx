@@ -67,7 +67,7 @@ export default function Header() {
           letterSpacing: '-1px',
         }}
       >
-        Inga Drama
+        Drama
       </Typography>
 
       <IconButton onClick={() => setOpen(true)} sx={{ color }}>
